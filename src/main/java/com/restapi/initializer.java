@@ -11,7 +11,8 @@ import org.springframework.boot.web.servlet.support.SpringBootServletInitializer
 public class initializer extends SpringBootServletInitializer {
 	
 	public static void main(String[] args)  {
-		
+
+
 		// SpringApplication nesnesi yaratiliyor.
 		SpringApplication app = new SpringApplication(initializer.class);
 		app.setWebApplicationType(WebApplicationType.SERVLET);
